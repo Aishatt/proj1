@@ -1,0 +1,16 @@
+body{
+    box-sizing: border-box;
+}
+#container{
+border: 2px solid black;
+width: 100%;
+background-color: aquamarine;
+height: 400px;
+position: relative;
+display: flex;
+align-items: center;
+}
+#right{
+align-self: flex-end;
+position: absolute;
+}
