@@ -1,3 +1,11 @@
+import React from "react";
+import ReactDOM from "react-dom";
+import App from "./App";
+import "./index.css";
+import "github-fork-ribbon-css/gh-fork-ribbon.css";
+
+ReactDOM.render(<App />, document.getElementById("root"));
+/*
 function message1(){
     console.log('my name is aisha')
 }
@@ -62,3 +70,4 @@ button.addEventListener('click',function(e){
 
     });
 });
+*/
